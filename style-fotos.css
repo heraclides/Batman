@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: o;
+    padding: o;
+    background-color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+.titulo {
+    width: 25%;
+    font-size: 40PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'bungee spice' , sans-serif;
+}
+
+.titulo2 {
+    width: 100%;
+    height: 100px;
+    display: none;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'bungee spice' , sans-serif;
+}
+
+nav {
+    height: 100%;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+   }
+
+ul {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+li {
+    list-style: none;
+    color: red;
+    cursor: pointer;
+    font-size: 25px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+}
+
+li:hover {
+    color: #fff;
+}
+
+#banner {
+    width: 100%;
+    height: 450px;
+    background-image: url('https://turnmundonerd.com.br/wp-content/uploads/2022/03/GZ7qByagHmrGVqV7VbJf8j-850x550.jpg');
+    background-size: cover;   
+}
+
+#actor-cards-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#elenco {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'bungee spice' , sans-serif;
+    font-size: 40px;
+}
+
+#elenco2 {
+    display: none;
+
+}
+
+.cards-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 30px;
+}
+
+.cards {
+    display: none;
+}
+
+.card {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 8s;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: flex-end;
+    padding: 10px 10px 10px 10px;
+    }
+
+    .nome {
+        width: 100%;
+        height: 20px;
+        color: #fff;
+        cursor: pointer;
+        transition: .5s;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        font-family: 'Kdam Thmor Pro' , sans-serif;
+    }
+
+    .banner1 {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQecP7h8r37ESxNIBRfwHbcGnwOlB1JtuFu7e_1UlxTycBCdchhT0ybPd0&s=10');
+    }
+
+    .banner2 {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Zoe_Kravitz_2020_dvna_studio_2.jpg/230px-Zoe_Kravitz_2020_dvna_studio_2.jpg');
+    }
+
+    .banner3 {
+        background-image: url('http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSPjDLgu_M6CGupbXf33RbE1nmUD6sZ94ZpQWyPRTOw7eFpSdFxlgoIUw0CgRPfN8jY');
+    }
+
+    .banner4 {
+        background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRKrrkRPdjnx6jRDjqQkx29YNigAnoTxoXGo_4jXN7PuMebSQ1p');
+    }
+
+    .banner5 {
+        background-image: url('./fotos/Jeffrey\ Wright.jfif')
+    }
+
+    .banner6 {
+        background-image: url('./fotos/Andy\ Serkis.jfif');
+    }
+
+    .banner7 {
+        background-image: url('./fotos/John\ Turturro.jfif');
+    }
+
+    .banner8 {
+        background-image: url('./fotos/Barry\ Keoghan.jfif');
+    }
+
+    .banner9 {
+        background-image: url('./fotos/Peter\ Sarsgaard.jfif');
+    }
+
+    .banner10 {
+        background-image: url('./fotos/jayme\ Lawson.jfif');
+    }
+
+    .banner11 {
+        background-image: url('./fotos/Alex\ Fems.jfif');
+    }
+
+    .banner12 {
+        background-image: url('./fotos/max\ Caver.jfif');
+    }
+
+    .banner13 {
+        background-image: url('./fotos/Rupert\ Penny.jfif');
+    }
+
+    .banner14 {
+        background-image: url('./fotos/Con\ ONeill.jfif');
+    }
+
+    .banner15 {
+        background-image: url('./fotos/Gil\ Perez.jfif');
+    }
+
+    .banner16 {
+        background-image: url('./fotos/Oscar\ Novak.jfif');
+    }
+
+    .banner17 {
+        background-image: url('./fotos/Charlie\ Carver.jfif');
+    }
+
+    .banner18 {
+        background-image: url('./fotos/Amber\ Sienna.jfif');
+    }
+
+    .banner19 {
+        background-image: url('./fotos/Hanna\ hizic.jfif');
+    }
+
+    .banner20 {
+        background-image: url('./fotos/Mark\ Killeen.jfif');
+    }
+
+    .banner21 {
+        background-image: url('./fotos/Janine\ Harouni.jfif');
+    }
+
+    .banner22 {
+        background-image: url('./fotos/Kosha\ Engfer.jfif');
+    }
+
+    .banner23 {
+        background-image: url('./fotos/Archíe\ Barnes.jfif');
+    }
+
+    .banner24 {
+        background-image: url('./fotos/Luke\ Roberts.jfif');
+    }
+
+    .banner25 {
+        background-image: url('./fotos/sandra\ Dickinson.jfif');
+    }
+
+    .banner26 {
+        background-image: url('./fotos/Stella\ Stocker.jfif');
+    }
+
+    .banner27 {
+        background-image: url('./fotos/Jeremy\ Irons.jfif');
+    }
+
+    .banner28 {
+        background-image: url('./fotos/Peter\ Craig.jfif');
+    }
+
+    .banner29 {
+        background-image: url('./fotos/Feirouz\ Al.jfif');
+    }
+
+    .banner30 {
+        background-image: url('./fotos/Bob\ Kane.jfif');
+    }
+
+    .banner31 {
+        background-image: url('./fotos/Shinpachi\ Tsuji.jfif');
+    }
+
+    .banner32 {
+        background-image: url('./fotos/Peter\ Mcdonald.jfif');
+    }
+
+    footer {
+        height: 400px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    span {
+        color: #fff;
+        font-family: 'Kdam Thmor Pro' , sans-serif;
+    }
+    
+    .footer-navigation {
+        display: none;
+    }
+    
+    .footer-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+     @media(max-width: 768px) {
+            .footer-navigation {
+                display: block;
+            }
+    
+            .navegacao {
+                display: none;
+            }
+    
+           .titulo {
+            display: none;
+    
+           }
+           .titulo2 {
+            display: flex;
+           }
+    
+           #banner {
+            background-position: center;
+           }
+
+           #elenco {
+            width: 100%;
+            height: 30px;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'bungee spice' , sans-serif;
+            font-size: 30px;
+            }
+
+            .nome{
+                display: none;
+            }
+
+           .nome2 {
+            display: none;
+            width: 100%;
+             height: 10px;
+            color: #fff;
+            cursor: pointer;
+            transition: .5s;
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            font-family: 'Kdam Thmor Pro' , sans-serif
+           }
+
+           .cards-content {
+            grid-template-columns: repeat(2, 1fr);
+           }
+
+           .card {
+            display: none;
+           }
+
+           .cards {
+            width: 100%;
+            height: 350px;
+            background-size: cover;
+            background-position: 50% 50%;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 8s;
+            display: flex;
+            flex-direction: column;
+            margin-top: 80px;
+            justify-content: flex-end;
+            padding: 10px 10px 10px 10px;
+           }
+
+           
+        }
