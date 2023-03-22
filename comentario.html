@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ContatosBatman</title>
-    <link rel="stylesheet" href="./style-contato.css">
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="./StyleComentario.css">
 </head>
 <body>
     <header>
@@ -13,7 +13,7 @@
         <!-- <div class="titulo">
             <p>CONTATOS</p>
         </div> -->
-        <TItle class="titulo">CONTATOS</TItle>
+        <TItle class="titulo">Comentários</TItle>
         <nav class="navegacao">
             <ul>
                 <a href="./index.html">
@@ -22,43 +22,30 @@
                  <a href="./foto.html">
                      <li>Fotos</li>
                 </a>
-                <a href="./comentario.html">
-                     <li>Comentários</li>
+                <a href="./contato.html">
+                     <li>Contatos</li>
                  </a>
             </ul>
         </nav>
         
     </header>
-   
-        <div id="banner"></div>
-   
-        <form action="./contato.html">
-        
-            <div class="container">
-                <div id="contato">
-                    <div class="imagem">
-                        <img class="email" src="./email.png" >
-                        
-                    </div>
-                    <div class="dados">
-                        <p id="mens">ENTRAR EM CONTATO</p>
-                        
-                        <label for="text">Nome</label>
-                        <input id="text" type="text">
 
-                        <label for="email">Email</label>
-                        <input id="email" type="email" name="Email" placeholder="coloque um email válido">
+    <div id="banner"></div>
+    <div class="info-container">
+        <div class="comentario">
+            <title id="titulo2">Deixe seu Comentário </title>
+            <label for="text">Nome:</label>
+            <input id="text" type="text">
 
-                        <label for="tel">Telefone</label>
-                        <input type="tel" name="f-tel" pattern="\([0-9]{2}\)[9][0-9]{4}-[0-9]{4}" placeholder="(xx)9xxxx-xxxx">
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="Email" placeholder="coloque um email válido">
+            
+            <label for="text">Coméntario:</label>
+            <textarea>nós conte sua experiência com o filme</textarea>
+            <button class="button">ENVIAR</button>
 
-                        <button class="button">ENVIAR</button>
-
-                    </div>
-                </div>
-            </div>
-    </form>
-
+        </div>
+    </div>
     <footer>
         <img style="object-fit: contain;" id="logo" src="./logo batman.jpg" >
         <span>Todos os direitos reservados ©</span>
@@ -79,5 +66,6 @@
         </nav>
 
     </footer>
+    
 </body>
 </html>
