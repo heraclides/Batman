@@ -51,6 +51,65 @@ li:hover {
     height: 600px;
 }
 
+#content_arrows {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrows {
+    width: 60px;
+    height: 130px;
+    bottom: 20px;
+    margin-top: 50px;
+}
+
+.arrows path {
+    stroke: beige;
+    fill: transparent;
+    stroke-width: 5px;
+    animation: arrow 5s infinite;
+    -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+    animation-delay:  -1.5s;
+    -webkit-animation-delay:  -1.5s;
+}
+
+.arrows path.a2 {
+    animation-delay:  -1s;
+    -webkit-animation-delay:  -1s;
+}
+
+.arrows path.a3 {
+    animation-delay:  -0.5s;
+    -webkit-animation-delay:  -0.5s;
+}
+
+.arrows path.a4 {
+    animation-delay:  0s;
+    -webkit-animation-delay:  0s;
+}
+
 #trailer-container {
     width: 100%;
     height: 400px;
@@ -200,6 +259,10 @@ li:hover {
 
             #banner {
                 background-position: 40%;
+            }
+
+            #content_arrows{
+                display: none;
             }
 
             #trailer-container {
